@@ -10,11 +10,42 @@
     <link
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
 </head>
 
 <body>
-    <h1>Hola</h1>
-    <h2>Ferchis</h2>
+    <header class="header">
+        <div class="header__contenedor">
+            <div class="header__barra">
+                <div class="header__logo">
+                    <h1>Logo</h1>
+                </div>
+                <div class="navegacion">
+                    <nav class="navegacion__contenedor">
+                        <a class="navegacion__link" href="#">Home</a>
+                        <a class="navegacion__link" href="#">About US</a>
+                        <a class="navegacion__link" href="#">Blog</a>
+                        <a class="navegacion__link" href="#">how it works?</a>
+                    </nav>
+                    <nav class="navegacion__login">
+                        <a class="navegacion__link" href="">Login</a>
+                        <a class="navegacion__link navegacion__link--sign" href="">Sign up</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__grid">
+            <div class="header__texto">
+                <p class="header__heading">innovate solution for sourcing candidate</p>
+                <h2 class="header__heading">Help us find <span>the missing puzzle, get rewarded</span> properly</h2>
+            </div>
+            <div class="header__grafico">
+                <img src="src/img/search.svg" alt="search">
+            </div>
+        </div>
+        
+    </header>
 </body>
 
 </html>
