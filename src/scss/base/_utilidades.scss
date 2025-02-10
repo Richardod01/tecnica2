@@ -1,0 +1,7 @@
+@use '../base/variables' as v;
+.gradient{
+    background: linear-gradient(to right, #4A16CF 0%, #0F6CCF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
